@@ -86,7 +86,8 @@ def reply(friend_name):
                 send_msg = query(recv_msg)
                 client.send(friend.uid, send_msg)
             client.markAsRead(friend.uid)
-friend_list = ['sinchan','vikas kotana','kamineni ramakrishna','sai raghu kokkiligadda']
+#names to chat
+friend_list = ["friend1","friend2",.......]
 i=0
 while True:
     if(i<len(friend_list)):
